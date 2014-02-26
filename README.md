@@ -6,4 +6,4 @@
 
 # ºô§}
 
-[URL](http://jianmin0721.github.io/)
+[Jian Min Chang's Blog Link URL](http://jianmin0721.github.io/)
