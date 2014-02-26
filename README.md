@@ -1,3 +1,7 @@
+#Jian Min Chang's Blog 
+
+目的:把學過、找過的東西做紀錄，日後備查。
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
