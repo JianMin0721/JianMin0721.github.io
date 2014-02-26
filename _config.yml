@@ -20,7 +20,8 @@ safe: true
 lsi: false
 pygments: true
 encoding: utf-8
-server_port: 4000
+source:  _source
+destination: _deploy
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
