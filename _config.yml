@@ -11,9 +11,9 @@ pygments: true
 title : JianMinChang's Blog
 tagline: Site Tagline
 author :
-  name : Name Lastname
+  name : JianMinChang
   email : blah@email.test
-  github : username
+  github : JianMinChang
   twitter : username
   feedburner : feedname
 safe: true
