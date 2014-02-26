@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Hello World!2013/02/26
+tagline: Hi!
 ---
 {% include JB/setup %}
 
@@ -19,8 +19,7 @@ In `_config.yml` remember to specify your own data:
       name : Name Lastname
       email : blah@email.test
       github : username
-      twitter : username
-
+      
 The theme should reference these variables whenever needed.
     
 ## Sample Posts
