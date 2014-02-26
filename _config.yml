@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : My Blog
 tagline: Site Tagline
 author :
   name : Name Lastname
@@ -16,7 +16,7 @@ author :
   github : username
   twitter : username
   feedburner : feedname
-
+safe: true
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
