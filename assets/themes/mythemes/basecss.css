@@ -1,0 +1,62 @@
+.w5p{width: 5%;}
+.w10p{width: 10%;}
+.w15p{width: 15%;}
+.w20p{width: 20%;}
+.w25p{width: 25%;}
+.w30p{width: 30%;}
+.w33p{width: 33%;}
+.w35p{width: 35%;}
+.w40p{width: 40%;}
+.w45p{width: 45%;}
+.w50p{width: 50%;}
+.w55p{width: 55%;}
+.w60p{width: 60%;}
+.w65p{width: 65%;}
+.w70p{width: 70%;}
+.w75p{width: 75%;}
+.w80p{width: 80%;}
+.w85p{width: 85%;}
+.w90p{width: 90%;}
+.w95p{width: 95%;}
+.w100p{width: 100%;}
+.h80p{height: 80%;}
+.h100p{height: 100%;}
+
+
+.margin-auto{margin: 0px auto;}
+.text-align-center{text-align: center;}
+.vertical-align-middle:{vertical-align: middle;}
+.float-left{float: left;}
+.float-right{float: right;}
+.font-size-1em{font-size: 1em;}
+.font-size-2em{font-size: 2em;}
+.font-size-3em{font-size: 3em;}
+.font-size-4em{font-size: 4em;}
+.font-size-5em{font-size: 5em;}
+.font-size-6em{font-size: 6em;}
+.font-size-7em{font-size: 7em;}
+.font-size-8em{font-size: 8em;}
+.font-size-9em{font-size: 9em;}
+.font-size-10em{font-size: 10em;}
+.font-family-MS-JhengHei{font-family: Microsoft JhengHei;}
+.background-mistyrose{background: #FFE4E1;}
+#content{
+	padding: 0px;
+	margin: 0px;
+}
+.box-size-border{
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.divtable{display: table;}
+.divtable-row{display: table-row;}
+.divtable-cell{display: table-cell;}
+
+h1{font-size: 5em;}
+h2{font-size: 4em;}
+h3{font-size: 3em;}
+h4{font-size: 2em;}
+h5{font-size: 1em;}
+
+p{font-size: 1em;}

@@ -1,45 +1,31 @@
 ---
-layout: page
-title: Hello World!2013/02/26
-tagline: Hi!
+layout: index
+title: Jian Min Chang's Blog
+tagline: 
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
+{% for post in site.posts limit:10 %}
+  <section class="section">
+   <article>
+      <div class="page-header">
+        <h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.ctitle }}</a></h1>
+      </div>
+      <div class="note post-info">
+        分類：<a href="categories.html#{{ post.category }}-ref">{{ post.category }}</a>
+        <span>{{ post.date | date_to_string }}</span>
+      </div>
       
-The theme should reference these variables whenever needed.
+
+      {% if post.content contains "<!-- more -->" %}
+        {{ post.content | split:"<!-- more -->" | first % }}
+      {% else %}
+        {{ post.content | strip_html | truncatewords:100 }}
+      {% endif %}
     
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+      <div class="read-more">
+        <a class="btn " href="{{ BASE_PATH }}{{ post.url }}">Read more...</a>
+      </div>
+    </article>
+  </section>
+{% endfor %}

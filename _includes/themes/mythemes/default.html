@@ -1,0 +1,133 @@
+<html lang="zn-tw">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="Share"/>
+    <meta property="og:type" content="blog"/>
+
+    <meta property="og:description" content=""/>
+    <meta property="og:site_name" content="jianminchang"/>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    
+    <link href="/assets/themes/mythemes/resetcss.css" rel="stylesheet" type="text/css">
+    <link href="/assets/themes/mythemes/basecss.css" rel="stylesheet" type="text/css">
+    <link href="/assets/themes/mythemes/indexcss.css" rel="stylesheet" type="text/css">
+
+    
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <script src="/assets/themes/mythemes/jquery-1.10.2.min.js"></script>
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+  </head>
+
+  <body>
+  	
+
+  
+    <header class="navbar">
+          <div>
+              <div class="divtable-cell w50p">
+                <div id="logo">
+                  <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+                </div>
+                
+              </div>
+              <div class="divtable-cell w50p">
+                  <ul class="nav box-size-border">
+                  {% assign pages_list = site.pages %}
+                  {% assign group = 'navigation' %}
+                  {% include JB/pages_list %}
+                  </ul>
+              </div>
+          </div>
+    </header>
+
+
+
+
+
+    <div id="main" class="w60p margin-auto ">
+    <article id="AreaContent">
+    <article  id="PageConetnt" class="content">
+      {{ content }}
+
+
+    <!-- page nav-->
+    <div class="page-nav">
+      <a href="/archive.html">More</a>
+    </div>
+    <!-- page nav end--> 
+
+      
+
+    </article>
+    
+    <aside>
+      
+
+              
+        <aside class="aside">
+
+          <!-- <gcse:search></gcse:search> -->
+
+          <h4>Recent Posts</h4>
+            <ul class="recent-box">
+              {% for post in site.posts limit:10 %}
+                <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.cTitle }}</a></li>
+              {% endfor %}
+            </ul> 
+
+            <h4>Tag list</h4>
+              <ul class="tag-box inline">
+                {% assign tags_list = site.tags %}  
+                {% include JB/tags_list %}
+              </ul>
+
+        </aside>
+
+    </aside>
+
+    
+
+
+
+    </article>
+
+
+    
+
+
+
+
+
+    </div>
+    <footer id="footer" class="w100p text-align-center font-size-1em box-size-border">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        </p>
+      </footer>
+
+    {% include JB/analytics %}
+	
+  </body>
+</html>
