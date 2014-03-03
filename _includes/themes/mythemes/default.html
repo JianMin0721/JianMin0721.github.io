@@ -31,6 +31,12 @@
 
     <script src="/assets/themes/mythemes/jquery-1.10.2.min.js"></script>
 
+    {% if page.cssdemo %}
+      <link href="/assets/themes/mythemes/pagecss.css" rel="stylesheet">
+       <link href="/assets/themes/mythemes/{{page.cssdemo}}.css" rel="stylesheet">
+    {% endif %}
+
+
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">

@@ -5,15 +5,38 @@ ctitle: 你好，世界
 category : Experience
 tags: [study]
 published: true
+cssdemo: 20140227
 ---
 
 <p>我的第一篇文章</p>
 
 <!-- more -->
-<p>{{ page.date | date_to_string }}</p>
+***
+
+<h3>目的:</h3>
+
+<h5>把學過、找過的東西做紀錄，學習心得分享，日後備查。</h5>
+
 
 ***
-<h3>以自訂設定好的CSS效果</h3>
+<p>
+工作了一年多的時間，會的漸漸地多了起來，上班時間作、學的的，<label>Html</label>、<label>Javascript</label>、<label>Css</label>、<label>C#</label>、<label>MS-SQL</label>、<label>IIS</label>，假日時間研究學習的<label>Linux</label>、<label>Apache</label>、<label>My-SQL</label>、<label>PHP</label>、架起來玩的<label>Mac OS X 10.9</label>，現在工作需要的<label>Android App 、Eclipse、Java</label>。
+</p>
+
+<p>
+隨著時間的流逝，越早學會的東西且不常用到的，或者是單一發生的特殊情形解法，不知不覺中就漸漸地淡忘，當又再次碰到時，又需要從頭找起，也是一件挺浪費時間的事情，雖然有印象找起來還算快，但還是寫個Blog來記下來，以備日後查詢使用，也當心得分享。
+</p>
+
+
+<p>Write By {{ page.date | date_to_string }}</p>
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+<h3>底下是寫作用以自訂設定好的CSS效果</h3>
 ***
 <h1>H1文字</h1>
 
