@@ -355,6 +355,7 @@ div.row-fluid.post-full >  div.span12 > div.content  pre>code{
 	line-height: 1.2em;
 	display: block;
 	padding: 1.3em;
+	border:1px solid #FFFFFF;
 }
 
 div.row-fluid.post-full >  div.span12 > div.content  blockquote{
@@ -498,3 +499,91 @@ div.row-fluid >  div.span12 > ul >li >a  {
 div.row-fluid >  div.span12 > ul >li >a:hover  {
 	text-decoration: underline;
 }
+
+.tablecss{
+	width: 80%;
+	height: auto;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	text-align: center;
+}
+.tablecss> thead{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	background: #99FFFF;
+	color: ##888888;
+}
+.tablecss tr{
+	border-collapse: collapse;
+	border: 1px solid #000;
+}
+.tablecss td{
+	border-collapse: collapse;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.tablecss th{
+	border-collapse: collapse;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+
+.tablecss> tbody{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	
+	color: #000000;
+}
+
+.tablecss> tbody >tr:nth-child(2n+1){
+	background: #EEFFBB;
+}
+.tablecss> tbody >tr:nth-child(2n+2){
+	background: #CCFF99;
+}
+
+.tablecss> tbody> tr:hover{
+	background: #EEEEEE;
+}
+
+.tablecss> tfoot{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	background: #CCDDFF;
+	color: #DC143C;
+}
+
+
+
+.code{
+	color: #000;
+	background: white;
+	border: 1px solid #dddddd;
+	padding: 1.5em;
+	font-size: 14px;
+}
+
+.code > ol {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+	
+}
+.code > ol > li{
+	width: 100%;
+	height: 1em;
+	border-left: 5px solid #00FF00;
+	padding: 10px;
+	margin: 0px;
+}
+.codeown{color: #DC143C;}
+.codevar{color: #5500FF;}
+.codehtmltag{color: #FF7744;}

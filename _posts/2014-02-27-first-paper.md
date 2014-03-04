@@ -39,33 +39,28 @@ cssdemo: 20140227
 <h3>底下是寫作用以自訂設定好的CSS效果</h3>
 ***
 <h1>H1文字</h1>
-
-
 <h2>H2文字</h2>
-
 <h3>H3文字</h3>
-
-
 <h4>H4文字</h4>
-
-
 <h5>H5文字</h5>
-
 <p>P文字</p>
-
-
-
 <strong>Strong文字</strong>
-
-
 <label>label文字</label>
 <br/>
-
-
-    pre>code 程式碼文字 ; Use by 前頭空三行
+    pre>code 程式碼文字 ; 
 <br/>
+<pre class="code">
+	 <b class="codeown">var</b> <b class="codevar">test</b>;
+	 <ol>
+	 	<li><b class="codehtmltag">&lt;html&gt;</b></li>
+	 	<li><b class="codehtmltag">    &lt;body&gt;</b></li>
+	 	<li><b class="codehtmltag">    &lt;/body&gt;</b></li>
+	 	<li><b class="codehtmltag">&lt;/html&gt;</b></li>
+	 </ol>
+</pre>
 
 
+<br/>
 <a herf="javascript:void(0)">a Link文字</a>
 <br/>
 
@@ -96,3 +91,47 @@ cssdemo: 20140227
 <h5>blockquote ; Use by ">"</h5>
 <br/>
 >codeArea1 
+
+<br/>
+
+<h5>Table</h5>
+
+<table class="tablecss">
+	<thead>
+		<tr>
+			<th>編號</th>
+			<th>地點</th>
+			<th>人數</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>01</td>
+			<td>台北</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td>桃園</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>03</td>
+			<td>高雄</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<td>04</td>
+			<td>屏東</td>
+			<td>8</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th></th>
+			<th></th>
+			<th>30</th>
+		</tr>
+	</tfoot>
+
+</table>
