@@ -408,7 +408,7 @@ div.row-fluid.post-full >  div.span12 > div.content  ul>li>p{
 }
 
 
-div.row-fluid.post-full >  div.span12 > div.content  ol{
+div.row-fluid.post-full >  div.span12 > div.content   ol{
 	width: 90%;
 	margin-left: 3.2em;
 }
@@ -570,22 +570,9 @@ div.row-fluid >  div.span12 > ul >li >a:hover  {
 	font-size: 14px;
 }
 
-.code > ol {
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-	line-height: 0px;
-	
-}
-.code > ol > li{
-	width: 100%;
-	height: 2em;
-	border-left: 5px solid #00FF00;
-	padding: 0px;
-        padding-top:0.5em;
-        padding-button:0.5em;
-	margin: 0px;
-}
+
 .codeown{color: #DC143C;}
 .codevar{color: #5500FF;}
 .codehtmltag{color: #FF7744;}
+.codeline{border-bottom: 1px dashed #dddddd;display: inline-block;width: 90%;}
+.spline{color:#87CEFA;border-right: 5px solid #00FF00;padding-right:10px ; }

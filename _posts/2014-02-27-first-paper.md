@@ -50,13 +50,13 @@ cssdemo: 20140227
     pre>code 程式碼文字 ; 
 <br/>
 <pre class="code">
-	 <b class="codeown">var</b> <b class="codevar">test</b>;
-	 <ol>
-	 	<li><b class="codehtmltag">&lt;html&gt;</b></li>
-	 	<li><b class="codehtmltag">    &lt;body&gt;</b></li>
-	 	<li><b class="codehtmltag">    &lt;/body&gt;</b></li>
-	 	<li><b class="codehtmltag">&lt;/html&gt;</b></li>
-	 </ol>
+	<b class="codeown">var</b> <b class="codevar">test</b>;
+	<br/>
+	<span class="codeline"><b class="codehtmltag">&lt;html&gt;</b></span>
+	<span class="codeline"><b class="codehtmltag">    &lt;body&gt;</b></span>
+	<span class="codeline"><b class="codehtmltag">    &lt;/body&gt;</b></span>
+	<span class="codeline"><b class="codehtmltag">&lt;/html&gt;</b></span>
+	
 </pre>
 
 
@@ -65,7 +65,15 @@ cssdemo: 20140227
 <br/>
 
 
-
+<pre class="code">
+	<b class="codeown">var</b> <b class="codevar">test2</b>;
+	<br/>
+	<span class="codeline"><b class="codehtmltag">&lt;html&gt;</b></span>
+	<span class="codeline"><b class="codehtmltag">    &lt;body&gt;</b></span>
+	<span class="codeline"><b class="codehtmltag">    &lt;/body&gt;</b></span>
+	<span class="codeline"><b class="codehtmltag">&lt;/html&gt;</b></span>
+	
+</pre>
 
 <h5>code tag ; Use by `文字`</h5>
 
