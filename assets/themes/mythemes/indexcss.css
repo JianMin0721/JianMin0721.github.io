@@ -248,7 +248,7 @@ div.page-header{
 	margin-bottom: 1em; 
 }
 div.page-header > h1{
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-bottom: 0.3em;
 	color:#DC143C;
 }
@@ -291,6 +291,7 @@ div.pagination{
 	
 	margin: 0 auto;
 }
+
 div.pagination > ul{
 	width: 450px;
 	
