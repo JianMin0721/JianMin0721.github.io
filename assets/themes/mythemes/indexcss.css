@@ -178,7 +178,7 @@ section.section{
 	text-decoration: none;
 }
 
-.note.post-info + p {
+.note.post-info ~ p {
 	text-indent: 2em;
 	color: #000;
 	padding-top: 1em;
@@ -249,6 +249,11 @@ div.page-header{
 }
 div.page-header > h1{
 	font-size: 2em;
+	margin-bottom: 0.3em;
+	color:#DC143C;
+}
+div.page-header > h5{
+	font-size: 1em;
 	margin-bottom: 0.3em;
 	color:#DC143C;
 }
@@ -574,5 +579,5 @@ div.row-fluid >  div.span12 > ul >li >a:hover  {
 .codeown{color: #DC143C;}
 .codevar{color: #5500FF;}
 .codehtmltag{color: #FF7744;}
-.codeline{border-bottom: 1px dashed #dddddd;display: inline-block;width: 90%;}
+.codeline{border-bottom: 1px dashed #dddddd;display: inline-block;width: 90%;padding-left:1em; }
 .spline{color:#87CEFA;border-right: 5px solid #00FF00;padding-right:10px ; }
