@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Jian Min Chang's Blog
+ctitle: Jian Min Chang's Blog
 tagline: 
 ---
 {% include JB/setup %}
